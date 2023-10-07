@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registrasi dan Login</title>
+    <link rel="stylesheet" href="style/stylee.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- fontawosome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <!-- animated -->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+</head>
+
+<body>
+    <header>
+        <div class="header animate__animated animate__fadeInDown">
+            <div class="navbar">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="home.html"><i
+                                            class="fa-solid fa-house"></i> Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="product.html"><i class="fa-solid fa-shop"></i> Belanja</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html"><i class="fa-solid fa-info"></i> about</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="product.html"> <i
+                                            class="fa-solid fa-right-to-bracket"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="animate__animated animate__fadeInUp"
+        style="background-image: url('/asset/shutterstock_1553428733.jpg'); height: 100vh; background-size: cover; background-position: center;">
+        <div class="container py-5 animate__animated animate__fadeInUp">
+        <div class="hero">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn-box"></div>
+                    <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                    <button type="button" class="toggle-btn" onclick="register()">Register</button>
+                </div>
+                <form id="login" class="input-group">
+                    <input type="text" class="input-field" placeholder="Username" required>
+                    <input type="password" class="input-field" placeholder="Password" required>
+                    <div>
+                        <button type="submit" class="submit-btn">Log In</button>
+                    </div>
+                </form>
+
+                <form id="register" class="input-group">
+                    <input type="text" class="input-field" placeholder="Username" required>
+                    <input type="email" class="input-field" placeholder="Email" required>
+                    <input type="password" class="input-field" placeholder="Password" required>
+                    <button type="submit" class="submit-btn">Register</button>
+                </form>
+            </div>
+        </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
