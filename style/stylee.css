@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'cabin',sans-serif;
+    font-family: 'Exo 2', sans-serif;
 }
 .container-1 {
   text-align: center;
@@ -21,14 +21,11 @@
 }
 
 .title {
-  padding: 50px;
+  padding: 20px;
   text-align: center;
-  margin: 0 auto 80px;
+  margin: 0 auto 50px;
   position: relative;
-  line-height: 60px;
-}
-*{
-  box-sizing: border-box;
+  line-height: 10px;
 }
 ul {
   margin: 0px;
@@ -253,10 +250,11 @@ color: #878787;
   }
   
   .submit-btn {
+    width: 80%;
     background-color: #007bff;
     color: #fff;
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
     padding: 10px 20px;
     cursor: pointer;
     font-size: 18px;
@@ -265,5 +263,9 @@ color: #878787;
   .submit-btn:hover {
     background-color: #0056b3;
   }
-
+.desk{
+  text-align: center;
+  margin: 10;
+  padding: 5px;
+}
   

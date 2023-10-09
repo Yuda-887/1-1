@@ -25,7 +25,7 @@
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="home.html"><i
+                                <a class="nav-link active" aria-current="page" href="index.html"><i
                                         class="fa-solid fa-house"></i> Home</a>
                             </li>
                             <li class="nav-item">
@@ -47,46 +47,124 @@
                 </div>
             </nav>
         </div>
+        <!-- title -->
         <div class="container">
             <nav class="navbar bg-body-tertiary">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img src="asset/cart.png" alt="Logo" width="30" height="24"
                             class="d-inline-block align-text-top">
-                        <strong>Keranjang</strong>
+                        <strong> Keranjang</strong>
                     </a>
                 </div>
             </nav>
-            <div class="content">
-                <div class="co">
-                    <div class="card mb-3" style="max-width: 100%;">
-                        <div class="form-check form-check-reverse">
-                            <input class="form-check-input" type="checkbox" value="" id="reverseCheck1">
-                            <label class="form-check-label" for="reverseCheck1">
-                              Reverse checkbox
-                            </label>
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="asset/product-1.jpg" class="img-fluid rounded-start" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">kaos polos merah</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins
-                                            ago</small></p>
-                                </div>
-                            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="cart_inner">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Product</th>
+                                    <th scope="col">Price</th>
+                                    <th scope="col">Quantity</th>
+                                    <th scope="col">Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="media">
+                                            <div class="d-flex">
+                                                <img src="assets/img/gallery/best-books1.jpg" alt="">
+                                            </div>
+                                            <div class="media-body">
+                                                <p>Minimalistic shop for multipurpose use</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <h5>$360.00</h5>
+                                    </td>
+                                    <td>
+                                        <div class="product_count">
+                                            <span class="input-number-decrement"> <i class="ti-minus"></i></span>
+                                            <input class="input-number" type="text" value="1" min="0" max="10">
+                                            <span class="input-number-increment"> <i class="ti-plus"></i></span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <h5>$720.00</h5>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="media">
+                                            <div class="d-flex">
+                                                <img src="asset/" alt="">
+                                            </div>
+                                            <div class="media-body">
+                                                <p>Minimalistic shop for multipurpose use</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <h5>$360.00</h5>
+                                    </td>
+                                    <td>
+                                        <div class="product_count">
+                                            <span class="input-number-decrement"> <i class="ti-minus"></i></span>
+                                            <input class="input-number2" type="text" value="1" min="0" max="10">
+                                            <span class="input-number-increment"> <i class="ti-plus"></i></span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <h5>$720.00</h5>
+                                    </td>
+                                </tr>
+                                <tr class="bottom_button">
+                                    <td>
+                                        <a class="btn" href="#">Update Cart</a>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                        <div class="cupon_text float-right">
+                                            <a class="btn" href="#">Close Coupon</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                        <h5>Subtotal</h5>
+                                    </td>
+                                    <td>
+                                        <h5>$2160.00</h5>
+                                    </td>
+                                </tr>
+                                <tr class="shipping_area">
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                        <h5>Shipping</h5>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="checkout_btn_inner float-right">
+                            <a class="btn" href="#">Continue Shopping</a>
+                            <a class="btn checkout_btn" href="#">Proceed to checkout</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
-        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+            </script>
 </body>
 
 </html>
